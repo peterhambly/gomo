@@ -1,0 +1,13 @@
+
+*.jar
+.mvn/wrapper/maven-wrapper.properties
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+*.class
+target/maven-archiver/pom.properties
+target/checkstyle-cachefile
+target/checkstyle-checker.xml
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/surefire-reports/gomouvt.gomoUvtTest.txt
+target/surefire-reports/TEST-gomouvt.gomoUvtTest.xml
