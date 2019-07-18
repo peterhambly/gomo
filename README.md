@@ -32,13 +32,13 @@ C:\Users\phamb\Documents\GitHub\gomo>java -jar target/gomo-test-0.1.0.jar 0-1000
 
 ## Alogorithm
 
-The algorithm is implemented by ```UvtPeriod.java``` and the functions *periodsOverlap* and *mergePeriods*. The function *addToUvtList* in Uvt.java uses these functions to add **UvtPeriod** objects to a list one args at a time:
+The algorithm is implemented by ```UvtPeriod.java``` and the functions *periodsOverlap* and *mergePeriods*. The function *addToUvtList* in ```Uvt.java``` uses these functions to add **UvtPeriod** objects to a list one argument at a time:
 
-* If there is nothing in list - adds;
-* Check to see if new UvtPeriod overlaps any current member of the list.
-  * If it overlaps: merge it;
+* If there is nothing in list then add;
+* Check to see if new UvtPeriod overlaps any current member of the list:
+  * If it overlaps the merge the two periods into one;
   * Otherwise add;
-* Finally, if the list has two or more items check to see if any adjacent periods overlap and need merging.
+* Finally, if the list has two or more items check to see if any adjacent periods overlap and need merging. If merging is required the new period replaces the first and the second period is removed from the list.
 
 Arguments are checked by regular expression.
 
