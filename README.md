@@ -36,8 +36,8 @@ The algorithm is implemented by ```UvtPeriod.java``` and the functions *periodsO
 
 * If there is nothing in list - adds;
 * Check to see if new UvtPeriod overlaps any current member of the list.
- * If it overlaps: merge it;
- * Otherwise add;
+  * If it overlaps: merge it;
+  * Otherwise add;
 * Finally, if the list has two or more items check to see if any adjacent periods overlap and need merging.
 
 Arguments are checked by regular expression.
