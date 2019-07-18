@@ -11,3 +11,4 @@ target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputF
 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
 target/surefire-reports/gomouvt.gomoUvtTest.txt
 target/surefire-reports/TEST-gomouvt.gomoUvtTest.xml
+target/checkstyle-result.xml
